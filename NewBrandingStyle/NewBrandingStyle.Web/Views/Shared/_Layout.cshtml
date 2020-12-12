@@ -25,7 +25,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Exchange" asp-action="Add">Add new item</a>
+                            @Html.ActionLink("Add new item", "Add", "Exchange", null, new { @class = "nav-link text-dark" } )
                         </li>
                     </ul>
                 </div>
